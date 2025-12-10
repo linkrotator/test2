@@ -7,11 +7,11 @@
     // Zufallszahl zwischen 0 und 1
     const randomNumber = Math.random();
 
-    // Links zu deinen beiden SoSci-Fragebögen
-    const linkA = "https://www.goethe-gymnasium.de";
-    const linkB = "https://www.annettegymnasium.de";
+    // Deine beiden SoSci-Fragebögen
+    const linkA = "https://www.soscisurvey.de/incolourornot/?act=UhYlCzfwiWxvEtW3sbD2Xz59";
+    const linkB = "https://www.soscisurvey.de/incolourornotdrei/?act=OhcvpNKYW2MBAZ10dNHY1jxb";
 
-    // Optional: Parameter aus der URL übernehmen
+    // Optional: Parameter aus der URL übernehmen (z.B. ?src=email)
     const params = window.location.search || "";
 
     // 50/50 Verteilung
@@ -24,8 +24,8 @@
 <body>
   <noscript>
     JavaScript ist erforderlich für die Weiterleitung.<br>
-    <a href="https://www.soscisurvey.de/DEIN_PROJEKT_A/">Link A</a> |
-    <a href="https://www.soscisurvey.de/DEIN_PROJEKT_B/">Link B</a>
+    <a href="https://www.soscisurvey.de/incolourornot/?act=UhYlCzfwiWxvEtW3sbD2Xz59">Link 1</a> |
+    <a href="https://www.soscisurvey.de/incolourornotdrei/?act=OhcvpNKYW2MBAZ10dNHY1jxb">Link 2</a>
   </noscript>
   <p>Sie werden zur Umfrage weitergeleitet…</p>
 </body>
